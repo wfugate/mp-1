@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    background: #e7b9ab;
+}
+#content_wrapper{
+    width: 80vw;
+    margin: auto;
+}
+
+main{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    width: 100%;
+    background: #bc6266;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1.56em;
+    font-family : 'Space Grotesk', sans-serif;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #bc6266;
+    color: white;
+    padding: 2vw;
+    font-family : 'Space Grotesk', sans-serif;
+}
+nav{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #bc6266;
+    padding: 1vw;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    padding: 0.5vw 1vw;
+    background-color: #d27d54;
+    border-radius: 30px;
+    margin-top: 2vw;
+}
+
+nav a{
+    text-decoration: none;
+    font-family : 'Space Grotesk', sans-serif;
+    font-size: calc(8px + 1vw);
+    font-weight: bold;
+    color: white;
+}
+caption {
+    font-family : 'Space Grotesk', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    border: #d27d54 2px solid;
+    background-color: #e7b9ab;
+    padding: 2vw;
+    text-align: center;
+
+}
+table, th, td {
+    font-family : 'Space Grotesk', sans-serif;
+    border: 2px #d27d54 solid;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption{
+    color: #6b6158;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #6b6158;
+}
+
+th {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px){
+
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav{
+        width: 100%;
+        background-color: #bc6266;
+        padding: 1vw;
+        list-style: none;
+        height: 6vh;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav li {
+        padding: 0.5vw 1vw;
+        background-color: #d27d54;
+        border-radius: 30px;
+        margin-top: 2vw;
+    }
+
+    main{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    img{
+        margin: auto;
+    }
+
+    table {
+        table-layout: fixed;
+    }
+    th, td {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}

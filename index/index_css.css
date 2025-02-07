@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    background: #e7b9ab;
+}
+#content_wrapper{
+    width: 80vw;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    background: #bc6266;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1.56em;
+    font-family : 'Space Grotesk', sans-serif;
+
+}
+main{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    font-family : 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #bc6266;
+    color: white;
+    padding: 2vw;
+}
+nav{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #bc6266;
+    padding: 1vw;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    padding: 0.5vw 1vw;
+    background-color: #d27d54;
+    border-radius: 30px;
+    margin-top: 2vw;
+}
+
+nav a{
+    text-decoration: none;
+    font-family : 'Space Grotesk', sans-serif;
+    font-size: calc(8px + 1vw);
+    font-weight: bold;
+    color: white;
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+#intro-blob h2 {
+    padding-left: 4vw;
+    padding-top: 0;
+    color: #6b6158;
+    font-size: 2em;
+    font-family : 'Space Grotesk', sans-serif;
+#intro-blob {
+    margin: auto;
+
+}
+
+}
+#intro-blob p {
+    display: flex;
+    align-items: center;
+    padding: 4vw;
+    color: #6b6158;
+    font-size: calc(1em);
+    font-family : 'Space Grotesk', sans-serif;
+}
+@media screen and (max-width: 900px){
+
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav{
+        height: 6vh;
+        width: 100%;
+        background-color: #bc6266;
+        padding: 1vw;
+        list-style: none;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav li {
+        padding: 0.5vw 1vw;
+        background-color: #d27d54;
+        border-radius: 30px;
+        margin-top: 2vw;
+    }
+    main{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    img{
+        margin: auto;
+    }
+
+}

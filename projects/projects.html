@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="projects_css.css">
+    <link href="https://fonts.google.com/specimen/Oi" rel="stylesheet">
+    <title>Resume | Projects</title>
+</head>
+<body>
+
+<div id="content_wrapper">
+    <header>
+        <h1>William Fugate</h1>
+        <p>My projects</p>
+    </header>
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="../index/index.html">Home</a></li>
+                <li><a href="../education/education.html">Education</a></li>
+                <li><a href="../experience/experience.html">Experience</a></li>
+                <li><a href="../references/references.html">References</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="../skills/skills.html">Soft Skills</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="projects">
+                <h2>Projects</h2>
+                <ul id="outer-list">
+                    <li>
+                        <h3>AI-Powered Resume Analyzer</h3>
+                        <h6>Technologies: Python, NLP (spaCy, NLTK), Flask, MongoDB, React</h6>
+                        <p>Description:
+                            Developed a web application that analyzes resumes and job descriptions to assess compatibility using Natural Language Processing (NLP).</p>
+                        <ul class="inside-list">
+                            <li>Achieved 85% accuracy in predicting job fit by using TF-IDF and word embeddings.</li>
+                            <li>Implemented automated skill extraction, categorizing experience levels for job matching.</li>
+                            <li>Created a responsive React UI for resume upload, feedback, and job recommendations.</li>
+                            <li>Optimized query performance with MongoDB, reducing response time by 40%.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="calculator-container">
+                <h1>Calculate!</h1>
+                <div id="calculator-result">
+                    <p>Result:</p>
+                    <h3 id="output"></h3>
+                </div>
+                <div id="inputs">
+                    <label for="int1-input"></label>
+                    <input id="int1-input" placeholder="">
+                    <label for="int2-input"></label>
+                    <input id="int2-input" placeholder="">
+                </div>
+                <div class="buttons">
+                    <button onclick="multiplication()" class="row1">*</button>
+                    <button onclick="division()" class="row1">/</button>
+                <button onclick="addition()" class="row2">+</button>
+                <button onclick="subtraction()" class="row2">-</button>
+                    <button onclick="power()" class="row3">**</button>
+                </div>
+                <div id="btn-clear">
+                    <button onclick="clearText()" class="row3">clear</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>All Rights Reserved by William Fugate <a href="">Credits</a>&copy;</footer>
+</div>
+
+<script src="projects_js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    background: #e7b9ab;
+}
+#content_wrapper{
+    width: 80vw;
+    margin: auto;
+}
+
+main{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer{
+    width: 100%;
+    background: #bc6266;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1.56em;
+    font-family : 'Space Grotesk', sans-serif;
+
+}
+header{
+    font-family : 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #bc6266;
+    color: white;
+    padding: 2vw;
+}
+nav{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #bc6266;
+    padding: 1vw;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    padding: 0.5vw 1vw;
+    background-color: #d27d54;
+    border-radius: 30px;
+    margin-top: 2vw;
+}
+
+nav a{
+    text-decoration: none;
+    font-family : 'Space Grotesk', sans-serif;
+    font-size: calc(8px + 1vw);
+    font-weight: bold;
+    color: white;
+}
+
+main h2 {
+    color: #6b6158;
+    padding: 2vw 0 0 2vw;
+    font-size: 2em;
+    font-family : 'Space Grotesk', sans-serif;
+}
+main ul li h6 {
+    color: #6b6158;
+    font-size: 1.3em;
+    font-family : 'Space Grotesk', sans-serif;
+    padding-bottom: 0.5vw;
+}
+main ul li p {
+    color: #6b6158;
+    font-size: 1.3em;
+    font-family : 'Space Grotesk', sans-serif;
+}
+main ul li ul {
+    list-style: square;
+    font-family : 'Space Grotesk', sans-serif;
+}
+main ul {
+    list-style-type: none;
+}
+main ul li h3 {
+    color: #6b6158;
+    text-align: center;
+    padding: 2vw 0 4vw 0;
+
+}
+.inside-list li {
+    font-size: 1.2em;
+    padding: 0.5vw;
+    color: #6b6158;
+
+}
+
+#calculator-container {
+    width: 100%;
+    margin: auto;
+    padding: 5vw;
+
+}
+#inputs {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inputs input{
+    font-size: calc(1vw);
+    font-family: 'Oi', sans-serif;
+    border-radius: 10%;
+    background: #fff2b7;
+}
+#calculator-container h1 {
+    text-align: center;
+    font-size: calc(2vw);
+    font-family: 'Oi', sans-serif;
+    color: #6b6158;
+}
+.buttons {
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oi', sans-serif;
+
+}
+#calculator-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#output{
+    text-align: center;
+    padding: 0;
+    font-size: calc(1.5vw);
+    font-family: 'Oi', sans-serif;
+
+}
+#calculator-container p {
+    text-align: center;
+    font-size: calc(1vw);
+    font-family: 'Oi', sans-serif;
+    color: #6b6158;
+    padding-left: 0;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+
+}
+.buttons button {
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+    font-size: calc(1.4vw);
+    font-weight: bold;
+    font-family: 'Oi', sans-serif;
+    color: #6b6158;
+    background-color: #ff69ad;
+
+
+}
+
+
+#btn-clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#btn-clear button{
+    border-radius: 0;
+    height: 3vw;
+    width: 20vw;
+    font-size: calc(1.4vw);
+    font-weight: bold;
+    font-family: 'Oi', sans-serif;
+    background-color: #6983ff;
+    color: #6b6158;
+
+}
+
+@media screen and (max-width: 900px){
+
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav{
+        width: 100%;
+        background-color: #bc6266;
+        padding: 1vw;
+        list-style: none;
+        height: 6vh;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav li {
+        padding: 0.5vw 1vw;
+        background-color: #d27d54;
+        border-radius: 30px;
+        margin-top: 2vw;
+    }
+
+    main{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    img{
+        margin: auto;
+    }
+
+}
