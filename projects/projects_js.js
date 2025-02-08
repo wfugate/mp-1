@@ -60,5 +60,7 @@ function power(){
 
 function clearText(){
     document.getElementById("output").innerHTML=String("&nbsp;");
+    document.getElementById("int1-input").value=String("");
+    document.getElementById("int2-input").value=String("");
     textColorHelper(0);
 }
